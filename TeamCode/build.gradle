@@ -15,4 +15,8 @@ dependencies {
      * Other Modules
      */
     implementation project(':FtcRobotController')
+    implementation ('com.acmerobotics.dashboard:dashboard:0.3.9'){
+        exclude group: 'org.firstinspires.ftc'
+    }
+
 }
